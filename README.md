@@ -6,3 +6,5 @@ Hello I am a student majored in statistics and I hope being capable to use Githu
 I am trying to add one line to practice 'pull' in git
 
 Now I am here in VisualStudio Code. I shall add one line here.
+
+Testing Local development in new branch
