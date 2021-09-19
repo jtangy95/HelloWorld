@@ -76,3 +76,23 @@ To switch the current branch, use the command below
 $ git checkout master
 $ git checkout develop
 ```
+Here we shall implement staging and commiting the changes in file. Note that the current branch is "develop", not "master".
+
+```
+$ git status
+$ git add .
+$ git commit -m "commit changes in new branch"
+```
+
+Now we should merge changes in the branch "develop" to the main branch "master".
+
+```
+$ git checkout master
+$ git merge develop
+```
+
+But the more common pattern we are going to see is pushing these changes on new branch up to Github and then making a pull request.
+```
+$ git push origin develop
+$ git push -u origin develop   # "-u" is a just shorthand for set upstream
+```
