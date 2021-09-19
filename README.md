@@ -52,5 +52,19 @@ $ git commit -m "Update README file" -m "Some description about change"
 
 Finally we should push those changes to Github server repository by `pull`
 ```
-git push origin master
+$ git push origin master
+```
+
+## Take advantage of branching
+
+To implement changes with no risk of damaging current files, we can use branch. 
+
+```
+$ git branch
+```
+This command tells us what branches do we have in the repository. `*`  mark is put on the current branch.
+
+To create a new branch, use the command below.
+```
+$ git checkout -b develop
 ```
