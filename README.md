@@ -67,4 +67,12 @@ This command tells us what branches do we have in the repository. `*`  mark is p
 To create a new branch, use the command below.
 ```
 $ git checkout -b develop
+$ git branch
+```
+Now new branch called "develop" is created and `$ git branch` command will show that there are two branches in this repository, with "develop" being a current branch. 
+
+To switch the current branch, use the command below
+```
+$ git checkout master
+$ git checkout develop
 ```
