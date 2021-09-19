@@ -94,5 +94,14 @@ $ git merge develop
 But the more common pattern we are going to see is pushing these changes on new branch up to Github and then making a pull request.
 ```
 $ git push origin develop
-$ git push -u origin develop   # "-u" is a just shorthand for set upstream
+$ git push -u origin develop   
+# "-u" is a just shorthand for set upstream
+```
+Then go to Github and check what changes in the new branch have by clicking `compare pull request`. After checking, we should `merge pull request`. Now the changes are applied to the main branch. 
+
+Note that changes are not applied to the main branch in local computer yet. That is because they are only on Github and we need to pull them down to local environment.
+
+```
+$ git checkout master
+$ git pull origin master
 ```
