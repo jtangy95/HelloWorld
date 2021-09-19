@@ -3,6 +3,8 @@ This is a repository for me to get used to Github
 
 Hello I am a student majored in statistics and I hope being capable to use Github professionally in order to collaborate with my classmates and implement version control. 
 
+<br>
+
 ## From Github server repository to our local computer
 Before starting, we should open terminal in VS code and enter the information of user
 
@@ -27,4 +29,28 @@ $ git pull origin master
 
  In VS Code, you can edit your file now. 
 
+ <br>
+
  ## Edit files in local computer and push to Github server repository
+
+ After some editting files in local computer, we should stage those changes. By `status` we can figure out whether there are changes not staged for commit. 
+ ```
+ $ git status
+ ```
+ If there are changes not staged for commit, then we should stage those updated files by `add`.
+```
+ $ git add .  # stage all updated files in current directory
+ $ git add README.md  # stage the file "README.md"
+```
+
+Then we can check whether changes are staged well to be committed by using `status` again.
+
+Next, we should commit those changes by `commit`
+```
+$ git commit -m "Update README file" -m "Some description about change"
+```
+
+Finally we should push those changes to Github server repository by `pull`
+```
+git push origin master
+```
