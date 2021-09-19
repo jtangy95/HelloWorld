@@ -105,3 +105,8 @@ Note that changes are not applied to the main branch in local computer yet. That
 $ git checkout master
 $ git pull origin master
 ```
+At last, if we don't need the new branch anymore, then delte the branch in local computer by the command below
+```
+$ git branch -d develop
+$ git branch
+```
