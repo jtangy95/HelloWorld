@@ -50,7 +50,7 @@ Next, we should commit those changes by `commit`
 $ git commit -m "Update README file" -m "Some description about change"
 ```
 
-Finally we should push those changes to Github server repository by `pull`
+Finally we should push those changes to Github server repository by `push`
 ```
 $ git push origin master
 ```
