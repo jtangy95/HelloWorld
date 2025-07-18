@@ -33,7 +33,7 @@ $ git pull origin master
 
  ## Edit files in local computer and push to Github server repository
 
- After some editting files in local computer, we should stage those changes. By `status` we can figure out whether there are changes not staged for commit. 
+ After some editing files in local computer, we should stage those changes. By `status` we can figure out whether there are changes not staged for commit. 
  ```
  $ git status
  ```
@@ -76,7 +76,7 @@ To switch the current branch, use the command below
 $ git checkout master
 $ git checkout develop
 ```
-Here we shall implement staging and commiting the changes in file. Note that the current branch is "develop", not "master".
+Here we shall implement staging and committing the changes in file. Note that the current branch is "develop", not "master".
 
 ```
 $ git status
@@ -105,7 +105,7 @@ Note that changes are not applied to the main branch in local computer yet. That
 $ git checkout master
 $ git pull origin master
 ```
-At last, if we don't need the new branch anymore, then delte the branch in local computer by the command below
+At last, if we don't need the new branch anymore, then delete the branch in local computer by the command below
 ```
 $ git branch -d develop
 $ git branch
